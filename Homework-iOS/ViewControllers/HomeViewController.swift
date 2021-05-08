@@ -25,6 +25,7 @@ class HomeViewController: UIViewController {
         let paymentCellNib = UINib.init(nibName: "PaymentTableViewCell", bundle: nil)
         tableView.register(paymentCellNib, forCellReuseIdentifier: paymentTableCellReuseID)
 
+        self.navigationItem.title = "Payment Methods"
     }
     
     

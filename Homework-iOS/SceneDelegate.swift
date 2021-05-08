@@ -22,8 +22,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let landingPage = HomeViewController(nibName: "HomeViewController", bundle: nil)
         navigationController.viewControllers = [landingPage]
-        navigationController.navigationBar.isTranslucent = true
+        navigationController.navigationBar.isTranslucent = false
+      
+        let appearance = UINavigationBarAppearance()
+        appearance.backgroundColor = .systemGreen
+        appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+        appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
 
+        navigationController.navigationBar.tintColor = .white
+        navigationController.navigationBar.standardAppearance = appearance
+        
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
