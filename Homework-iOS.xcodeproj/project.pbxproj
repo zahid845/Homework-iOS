@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		840448732646796300C8EA7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448722646796300C8EA7F /* AppDelegate.swift */; };
 		840448752646796300C8EA7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448742646796300C8EA7F /* SceneDelegate.swift */; };
-		840448772646796300C8EA7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448762646796300C8EA7F /* ViewController.swift */; };
 		8404487D2646796300C8EA7F /* Homework_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8404487B2646796300C8EA7F /* Homework_iOS.xcdatamodeld */; };
 		8404487F2646796500C8EA7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8404487E2646796500C8EA7F /* Assets.xcassets */; };
 		840448822646796500C8EA7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840448802646796500C8EA7F /* LaunchScreen.storyboard */; };
 		8404488D2646796500C8EA7F /* Homework_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404488C2646796500C8EA7F /* Homework_iOSTests.swift */; };
 		840448982646796500C8EA7F /* Homework_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448972646796500C8EA7F /* Homework_iOSUITests.swift */; };
+		840448B626467A3600C8EA7F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448B426467A3600C8EA7F /* HomeViewController.swift */; };
+		840448B726467A3600C8EA7F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840448B526467A3600C8EA7F /* HomeViewController.xib */; };
+		840448C126467AD700C8EA7F /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448BF26467AD700C8EA7F /* PaymentTableViewCell.swift */; };
+		840448C226467AD700C8EA7F /* PaymentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840448C026467AD700C8EA7F /* PaymentTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		8404486F2646796300C8EA7F /* Homework-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840448722646796300C8EA7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		840448742646796300C8EA7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		840448762646796300C8EA7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8404487C2646796300C8EA7F /* Homework_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Homework_iOS.xcdatamodel; sourceTree = "<group>"; };
 		8404487E2646796500C8EA7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840448812646796500C8EA7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		840448932646796500C8EA7F /* Homework-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		840448972646796500C8EA7F /* Homework_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_iOSUITests.swift; sourceTree = "<group>"; };
 		840448992646796500C8EA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840448B426467A3600C8EA7F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		840448B526467A3600C8EA7F /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		840448BF26467AD700C8EA7F /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
+		840448C026467AD700C8EA7F /* PaymentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,11 @@
 			children = (
 				840448722646796300C8EA7F /* AppDelegate.swift */,
 				840448742646796300C8EA7F /* SceneDelegate.swift */,
-				840448762646796300C8EA7F /* ViewController.swift */,
+				840448B326467A1500C8EA7F /* Networking */,
+				840448B226467A1000C8EA7F /* Model */,
+				840448B1264679FE00C8EA7F /* Enum */,
+				840448AF264679EF00C8EA7F /* Helper */,
+				840448AE264679E900C8EA7F /* ViewControllers */,
 				8404487E2646796500C8EA7F /* Assets.xcassets */,
 				840448802646796500C8EA7F /* LaunchScreen.storyboard */,
 				840448832646796500C8EA7F /* Info.plist */,
@@ -126,6 +136,53 @@
 				840448992646796500C8EA7F /* Info.plist */,
 			);
 			path = "Homework-iOSUITests";
+			sourceTree = "<group>";
+		};
+		840448AE264679E900C8EA7F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				840448BE26467AB800C8EA7F /* PaymentTableCell */,
+				840448B426467A3600C8EA7F /* HomeViewController.swift */,
+				840448B526467A3600C8EA7F /* HomeViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		840448AF264679EF00C8EA7F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		840448B1264679FE00C8EA7F /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		840448B226467A1000C8EA7F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		840448B326467A1500C8EA7F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		840448BE26467AB800C8EA7F /* PaymentTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				840448BF26467AD700C8EA7F /* PaymentTableViewCell.swift */,
+				840448C026467AD700C8EA7F /* PaymentTableViewCell.xib */,
+			);
+			path = PaymentTableCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +290,8 @@
 			files = (
 				840448822646796500C8EA7F /* LaunchScreen.storyboard in Resources */,
 				8404487F2646796500C8EA7F /* Assets.xcassets in Resources */,
+				840448C226467AD700C8EA7F /* PaymentTableViewCell.xib in Resources */,
+				840448B726467A3600C8EA7F /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,10 +316,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840448772646796300C8EA7F /* ViewController.swift in Sources */,
+				840448C126467AD700C8EA7F /* PaymentTableViewCell.swift in Sources */,
 				840448732646796300C8EA7F /* AppDelegate.swift in Sources */,
 				840448752646796300C8EA7F /* SceneDelegate.swift in Sources */,
 				8404487D2646796300C8EA7F /* Homework_iOS.xcdatamodeld in Sources */,
+				840448B626467A3600C8EA7F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
