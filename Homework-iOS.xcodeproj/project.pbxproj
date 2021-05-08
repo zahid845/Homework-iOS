@@ -19,6 +19,8 @@
 		840448C126467AD700C8EA7F /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448BF26467AD700C8EA7F /* PaymentTableViewCell.swift */; };
 		840448C226467AD700C8EA7F /* PaymentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840448C026467AD700C8EA7F /* PaymentTableViewCell.xib */; };
 		840448CA26467CDE00C8EA7F /* ListResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448C926467CDE00C8EA7F /* ListResult.swift */; };
+		840448CF26467F8900C8EA7F /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448CE26467F8900C8EA7F /* Networking.swift */; };
+		840448D42646804E00C8EA7F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448D32646804E00C8EA7F /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		840448BF26467AD700C8EA7F /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
 		840448C026467AD700C8EA7F /* PaymentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentTableViewCell.xib; sourceTree = "<group>"; };
 		840448C926467CDE00C8EA7F /* ListResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListResult.swift; sourceTree = "<group>"; };
+		840448CE26467F8900C8EA7F /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		840448D32646804E00C8EA7F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,7 @@
 		840448B1264679FE00C8EA7F /* Enum */ = {
 			isa = PBXGroup;
 			children = (
+				840448D32646804E00C8EA7F /* NetworkError.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 		840448B326467A1500C8EA7F /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				840448CE26467F8900C8EA7F /* Networking.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -320,11 +326,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				840448C126467AD700C8EA7F /* PaymentTableViewCell.swift in Sources */,
+				840448D42646804E00C8EA7F /* NetworkError.swift in Sources */,
 				840448732646796300C8EA7F /* AppDelegate.swift in Sources */,
 				840448752646796300C8EA7F /* SceneDelegate.swift in Sources */,
 				8404487D2646796300C8EA7F /* Homework_iOS.xcdatamodeld in Sources */,
 				840448CA26467CDE00C8EA7F /* ListResult.swift in Sources */,
 				840448B626467A3600C8EA7F /* HomeViewController.swift in Sources */,
+				840448CF26467F8900C8EA7F /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
