@@ -18,6 +18,7 @@
 		840448B726467A3600C8EA7F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840448B526467A3600C8EA7F /* HomeViewController.xib */; };
 		840448C126467AD700C8EA7F /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448BF26467AD700C8EA7F /* PaymentTableViewCell.swift */; };
 		840448C226467AD700C8EA7F /* PaymentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840448C026467AD700C8EA7F /* PaymentTableViewCell.xib */; };
+		840448CA26467CDE00C8EA7F /* ListResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448C926467CDE00C8EA7F /* ListResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		840448B526467A3600C8EA7F /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		840448BF26467AD700C8EA7F /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
 		840448C026467AD700C8EA7F /* PaymentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentTableViewCell.xib; sourceTree = "<group>"; };
+		840448C926467CDE00C8EA7F /* ListResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		840448B226467A1000C8EA7F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				840448C926467CDE00C8EA7F /* ListResult.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				840448732646796300C8EA7F /* AppDelegate.swift in Sources */,
 				840448752646796300C8EA7F /* SceneDelegate.swift in Sources */,
 				8404487D2646796300C8EA7F /* Homework_iOS.xcdatamodeld in Sources */,
+				840448CA26467CDE00C8EA7F /* ListResult.swift in Sources */,
 				840448B626467A3600C8EA7F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
