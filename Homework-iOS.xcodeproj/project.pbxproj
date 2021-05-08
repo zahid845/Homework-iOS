@@ -10,17 +10,17 @@
 		840448732646796300C8EA7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448722646796300C8EA7F /* AppDelegate.swift */; };
 		840448752646796300C8EA7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448742646796300C8EA7F /* SceneDelegate.swift */; };
 		8404487D2646796300C8EA7F /* Homework_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8404487B2646796300C8EA7F /* Homework_iOS.xcdatamodeld */; };
-		8404487F2646796500C8EA7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8404487E2646796500C8EA7F /* Assets.xcassets */; };
-		840448822646796500C8EA7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840448802646796500C8EA7F /* LaunchScreen.storyboard */; };
 		8404488D2646796500C8EA7F /* Homework_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404488C2646796500C8EA7F /* Homework_iOSTests.swift */; };
 		840448982646796500C8EA7F /* Homework_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448972646796500C8EA7F /* Homework_iOSUITests.swift */; };
 		840448B626467A3600C8EA7F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448B426467A3600C8EA7F /* HomeViewController.swift */; };
-		840448B726467A3600C8EA7F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840448B526467A3600C8EA7F /* HomeViewController.xib */; };
 		840448C126467AD700C8EA7F /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448BF26467AD700C8EA7F /* PaymentTableViewCell.swift */; };
-		840448C226467AD700C8EA7F /* PaymentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840448C026467AD700C8EA7F /* PaymentTableViewCell.xib */; };
 		840448CA26467CDE00C8EA7F /* ListResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448C926467CDE00C8EA7F /* ListResult.swift */; };
 		840448CF26467F8900C8EA7F /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448CE26467F8900C8EA7F /* Networking.swift */; };
 		840448D42646804E00C8EA7F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448D32646804E00C8EA7F /* NetworkError.swift */; };
+		840448DC264685E300C8EA7F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448DB264685E300C8EA7F /* ImageLoader.swift */; };
+		840448E12646861000C8EA7F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840448E02646861000C8EA7F /* Constants.swift */; };
+		8404491B26468A9300C8EA7F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840448B526467A3600C8EA7F /* HomeViewController.xib */; };
+		8404491F26468A9800C8EA7F /* PaymentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840448C026467AD700C8EA7F /* PaymentTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +61,8 @@
 		840448C926467CDE00C8EA7F /* ListResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListResult.swift; sourceTree = "<group>"; };
 		840448CE26467F8900C8EA7F /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		840448D32646804E00C8EA7F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		840448DB264685E300C8EA7F /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		840448E02646861000C8EA7F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,8 @@
 		840448AF264679EF00C8EA7F /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				840448DB264685E300C8EA7F /* ImageLoader.swift */,
+				840448E02646861000C8EA7F /* Constants.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -203,7 +207,7 @@
 			buildPhases = (
 				8404486B2646796300C8EA7F /* Sources */,
 				8404486C2646796300C8EA7F /* Frameworks */,
-				8404486D2646796300C8EA7F /* Resources */,
+				8404491A26468A8D00C8EA7F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -293,17 +297,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8404486D2646796300C8EA7F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				840448822646796500C8EA7F /* LaunchScreen.storyboard in Resources */,
-				8404487F2646796500C8EA7F /* Assets.xcassets in Resources */,
-				840448C226467AD700C8EA7F /* PaymentTableViewCell.xib in Resources */,
-				840448B726467A3600C8EA7F /* HomeViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		840448862646796500C8EA7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,6 +308,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8404491A26468A8D00C8EA7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8404491F26468A9800C8EA7F /* PaymentTableViewCell.xib in Resources */,
+				8404491B26468A9300C8EA7F /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +332,8 @@
 				840448732646796300C8EA7F /* AppDelegate.swift in Sources */,
 				840448752646796300C8EA7F /* SceneDelegate.swift in Sources */,
 				8404487D2646796300C8EA7F /* Homework_iOS.xcdatamodeld in Sources */,
+				840448E12646861000C8EA7F /* Constants.swift in Sources */,
+				840448DC264685E300C8EA7F /* ImageLoader.swift in Sources */,
 				840448CA26467CDE00C8EA7F /* ListResult.swift in Sources */,
 				840448B626467A3600C8EA7F /* HomeViewController.swift in Sources */,
 				840448CF26467F8900C8EA7F /* Networking.swift in Sources */,
@@ -503,6 +507,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3EMGGLWTE3;
 				INFOPLIST_FILE = "Homework-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,6 +527,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3EMGGLWTE3;
 				INFOPLIST_FILE = "Homework-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -10,7 +10,7 @@ import UIKit
 class PaymentTableViewCell: UITableViewCell {
 
     
-    @IBOutlet weak var pImgView: UIImageView!
+    @IBOutlet weak var pImgView: ImageLoader!
     @IBOutlet weak var pNameLb: UILabel!
 
     override func awakeFromNib() {
